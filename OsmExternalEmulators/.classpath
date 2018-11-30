@@ -40,5 +40,9 @@
 	<classpathentry kind="lib" path="lib/org-apache-xml-resolver.jar"/>
 	<classpathentry kind="lib" path="lib/org.apache.xml.resolver-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/resolver.jar"/>
+	<classpathentry kind="lib" path="lib/automation_plugins.jar"/>
+	<classpathentry kind="lib" path="lib/saxon9-test.jar"/>
+	<classpathentry kind="lib" path="lib/saxon9-xqj.jar"/>
+	<classpathentry kind="lib" path="lib/saxon9he.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
