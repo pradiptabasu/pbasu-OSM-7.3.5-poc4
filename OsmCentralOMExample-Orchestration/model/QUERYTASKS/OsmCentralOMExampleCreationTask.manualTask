@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aut="http://xmlns.oracle.com/communications/sce/osm/model/process/task/automation" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:task="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="task:manualTaskType" name="OsmCentralOMExampleCreationTask">
   <com:displayName>OsmCentralOMExampleCreationTask</com:displayName>
-  <com:saveVersion>50</com:saveVersion>
+  <com:saveVersion>59</com:saveVersion>
   <com:id>lO5eHXWZRwOJjLDvQQFHpA</com:id>
   <task:orderType>
     <com:entity>OsmCentralOMExampleOrder</com:entity>
@@ -611,6 +611,20 @@
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
         </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/BillingFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/BillingFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
       </task:childNode>
       <task:childNode>
         <com:entity>OsmCentralOMExampleOrder</com:entity>
@@ -711,6 +725,20 @@
             </task:childNode>
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/MarketingFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/MarketingFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
         </task:childNode>
       </task:childNode>
       <task:childNode>
@@ -821,6 +849,20 @@
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
         </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/CollectionsFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/CollectionsFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
       </task:childNode>
       <task:childNode>
         <com:entity>OsmCentralOMExampleOrder</com:entity>
@@ -921,6 +963,20 @@
             </task:childNode>
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/SyncCustomerFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/SyncCustomerFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
         </task:childNode>
       </task:childNode>
       <task:childNode>
@@ -1030,6 +1086,20 @@
             </task:childNode>
             <task:childRefNode>true</task:childRefNode>
           </task:childNode>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ProvisioningFunction/calculatedStartDate</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
+        </task:childNode>
+        <task:childNode>
+          <com:entity>OsmCentralOMExampleOrder</com:entity>
+          <com:entityType>order</com:entityType>
+          <com:relationship>ora.task.orderTemplateRef</com:relationship>
+          <com:element>/ControlData/Functions/ProvisioningFunction/duration</com:element>
+          <com:elementType>com.mslv.studio.provisioning.order.node</com:elementType>
         </task:childNode>
       </task:childNode>
     </task:childNode>
@@ -1930,6 +2000,56 @@
   </task:viewNodeExtension>
   <task:viewNodeExtension>
     <task:path>/Status/ProvisioningDSLRegion2Status/ErrorStatus</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/BillingFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/BillingFunction/duration</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/CollectionsFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/CollectionsFunction/duration</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/MarketingFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/MarketingFunction/duration</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ProvisioningFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/ProvisioningFunction/duration</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/SyncCustomerFunction/calculatedStartDate</task:path>
+    <task:editable>true</task:editable>
+    <task:defaultValue></task:defaultValue>
+  </task:viewNodeExtension>
+  <task:viewNodeExtension>
+    <task:path>/ControlData/Functions/SyncCustomerFunction/duration</task:path>
     <task:editable>true</task:editable>
     <task:defaultValue></task:defaultValue>
   </task:viewNodeExtension>

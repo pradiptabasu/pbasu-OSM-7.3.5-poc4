@@ -8,12 +8,14 @@
     <com:major>1</com:major>
     <com:minor>0</com:minor>
     <com:maintenance>0</com:maintenance>
+    <com:servicePack>0</com:servicePack>
+    <com:eFix>0</com:eFix>
     <com:build>0</com:build>
   </com:version>
   <com:targetApplicationVersion>
     <com:major>7</com:major>
-    <com:minor>0</com:minor>
-    <com:maintenance>0</com:maintenance>
+    <com:minor>3</com:minor>
+    <com:maintenance>5</com:maintenance>
   </com:targetApplicationVersion>
   <com:sealed>false</com:sealed>
   <com:deploymentList displayName="Orders" includeAll="true" relationship="com.mslv.studio.provisioning.cartridge.packageActions">
@@ -59,6 +61,10 @@
       <com:defaultValue>ENV1</com:defaultValue>
     </com:property>
   </com:propertyCategory>
+  <com:catridgeElement>
+    <com:id>PgzXl27vQOS8Sc8sZp9Jyg</com:id>
+    <com:elementType>oracle.communications.studio.model.StudioCartridgeElement</com:elementType>
+  </com:catridgeElement>
   <activationEnvID></activationEnvID>
   <activationResponseQueue></activationResponseQueue>
   <cacheMaxSize>50</cacheMaxSize>

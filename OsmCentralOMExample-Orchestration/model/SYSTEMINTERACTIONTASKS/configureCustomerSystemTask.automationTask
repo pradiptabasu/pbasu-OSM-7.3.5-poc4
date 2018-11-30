@@ -481,7 +481,7 @@
   <task:automationComponent xsi:type="task:externalAutomationPlugin">
     <prov:name>receiver</prov:name>
     <prov:type>xQueryAutomator</prov:type>
-    <prov:ejbName>cdiTask.receiver</prov:ejbName>
+    <prov:ejbName>configureCustomerSystemTask.automatedtask.osmcentralomexample-orchestration.receiver</prov:ejbName>
     <prov:runAs>omsadmin</prov:runAs>
     <prov:implementation xsi:type="aut:XqueryAutomator">
       <aut:script>
